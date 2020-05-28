@@ -4,4 +4,5 @@ install 'allure-pytest'
 install 'pytest'
 
 command 'python -m pytest --alluredir reports'
+
 command 'allure serve reports'
