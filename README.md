@@ -1,8 +1,13 @@
-# 18th_class_13_4_2019
+# Procedure
 
-install 'allure-pytest'
-install 'pytest'
+## Prerequisite
 
-command 'python -m pytest --alluredir reports'
+###1) pip install pytest
+###2) pip install allure-pytest
+###2) pip install pytest-html
 
-command 'allure serve reports'
+##Commands to execute
+
+###1) python -m pytest --alluredir reports
+
+###2) allure serve reports
